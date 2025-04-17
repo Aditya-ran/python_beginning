@@ -24,6 +24,20 @@ if user_permission == "yes":
         score +=1
     else:
         print("you're wrong!")
+
+    fourth_question = input("Who's the current president of United States of America?\n1.bombardilo crocodilo\n2.tung tung tung sahur\n3.tralelo tralala\n4.Donald Trump\n>>").lower()
+    if fourth_question == "4" or"donald trump":
+        print("you're right")
+        score += 1
+    else:
+        print("you're wrong")
+    
+    fifth_question = input("Which of the following is the most powerful graphics card rn?\n1.rx 6600xt\n2.rtx 3060\n3.radeon 6090\n4.RTX 5090\n>>").lower()
+    if fifth_question == "4" or "rtx 5090":
+        print("you're right")
+        score +=1
+    else:
+        print("you're wrong!")
     print(f"your score is {score}!")
 else:
     print("no probs")
